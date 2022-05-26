@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cart-detail{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+.container{
+    padding: 40px 30px;
+}
+.image-detail img{
+    width: 100%;
+    object-fit: cover;
+}
+.info h3{
+    font-size: 20px;
+}
+.info-detail{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;
+}
+.price label{
+    font-size: 16px;
+    color: gray;
+}
+.price span{
+    font-size: 28px;
+    color: black;
+}
+.button{
+    padding-bottom: 30px;
+}
+.icons input{
+    width: 90px;
+}
+.icons{
+    display: flex;
+}
+.btn{
+    text-align: left;
+}
+.input{
+    padding: 0 8px;
+}
+.quantity-form{
+    text-align: center;
+}
+.cart-img-top{
+    width: 300px;
+    object-fit: cover;
+}

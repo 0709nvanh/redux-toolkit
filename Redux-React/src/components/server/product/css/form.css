@@ -1,0 +1,11 @@
+*{
+    margin: 0;;
+    padding: 0;
+    box-sizing: border-box;
+}
+.form-add{
+    padding: 20px 60px;
+}
+.form-add span{
+    color: rgb(211, 34, 34);
+}
